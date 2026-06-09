@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VPN</string>
+    <string name="connect_fastest">Подключить быстрый</string>
+    <string name="disconnect">Отключить</string>
+    <string name="connected">Подключено</string>
+    <string name="not_connected">Не подключено</string>
+    <string name="servers_title">Серверы</string>
+    <string name="loading_config">Загрузка конфига…</string>
+    <string name="scanning">Сканирование…</string>
+    <string name="no_servers">Нет доступных серверов</string>
+    <string name="error_label">Ошибка</string>
+
+    <plurals name="servers_live">
+        <item quantity="one">%d сервер</item>
+        <item quantity="few">%d сервера</item>
+        <item quantity="many">%d серверов</item>
+        <item quantity="other">%d серверов</item>
+    </plurals>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_blue">#60A5FA</color>
+    <color name="accent_green">#4ADE80</color>
+    <color name="accent_red">#F87171</color>
+    <color name="bg_card">#16161B</color>
+    <color name="bg_primary">#0E0E11</color>
+    <color name="btn_connect">#4ADE80</color>
+    <color name="btn_connect_text">#0A1F12</color>
+    <color name="btn_disconnect">#2A1515</color>
+    <color name="btn_disconnect_text">#F87171</color>
+    <color name="card_border">#12FFFFFF</color>
+    <color name="card_border_connected">#4D4ADE80</color>
+    <color name="colorAccent">#4ADE80</color>
+    <color name="colorPrimary">#4ADE80</color>
+    <color name="colorPrimaryDark">#0E0E11</color>
+    <color name="dot_off">#3A3A4A</color>
+    <color name="green_live">#4ADE80</color>
+    <color name="item_selected_bg">#194ADE80</color>
+    <color name="ping_bg_dead">#10FFFFFF</color>
+    <color name="ping_bg_high">#1AF87171</color>
+    <color name="ping_bg_low">#1A4ADE80</color>
+    <color name="ping_bg_mid">#1AFBBF24</color>
+    <color name="ping_fg_dead">#4A4A5A</color>
+    <color name="ping_fg_high">#F87171</color>
+    <color name="ping_fg_low">#4ADE80</color>
+    <color name="ping_fg_mid">#FBBF24</color>
+    <color name="text_muted">#7A7A8C</color>
+    <color name="text_primary">#F0F0F5</color>
+    <color name="transparent">#00000000</color>
+    <plurals name="servers_live">
+        <item quantity="one">%d сервер</item>
+        <item quantity="few">%d сервера</item>
+        <item quantity="many">%d серверов</item>
+        <item quantity="other">%d серверов</item>
+    </plurals>
+    <string name="app_name">VPN</string>
+    <string name="connect_fastest">Подключить быстрый</string>
+    <string name="connected">Подключено</string>
+    <string name="disconnect">Отключить</string>
+    <string name="error_label">Ошибка</string>
+    <string name="loading_config">Загрузка конфига…</string>
+    <string name="no_servers">Нет доступных серверов</string>
+    <string name="not_connected">Не подключено</string>
+    <string name="scanning">Сканирование…</string>
+    <string name="servers_title">Серверы</string>
+    <style name="Theme.VPNApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/bg_primary</item>
+        <item name="android:navigationBarColor">@color/bg_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

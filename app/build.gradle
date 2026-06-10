@@ -62,5 +62,5 @@ dependencies {
     // clash-android — Go-based Clash core compiled for Android
     // Provides: ClashLib.so with full SS/VMess/VLESS/Trojan support
     // Source: https://github.com/MetaCubeX/ClashMetaForAndroid
-    implementation 'com.github.MetaCubeX:ClashMetaForAndroid:v2.10.1-Alpha-release'
+    implementation 'com.github.MetaCubeX:ClashMetaForAndroid:v2.9.1'
 }

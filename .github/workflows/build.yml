@@ -31,6 +31,15 @@ jobs:
             "https://github.com/gradle/gradle/raw/v8.2.0/gradle/wrapper/gradle-wrapper.jar"
           chmod +x gradlew
 
+      - name: Download Clash Meta AAR
+        run: |
+          mkdir -p app/libs
+          curl -L -o app/libs/clash-meta.aar \
+            "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.10.1-Alpha/app-release.aar" \
+            || curl -L -o app/libs/clash-meta.aar \
+            "https://github.com/MetaCubeX/ClashMetaForAndroid/releases/latest/download/app-release.aar"
+          ls -lh app/libs/
+
       - name: Build debug APK
         run: ./gradlew assembleDebug --no-daemon
 
